@@ -1,0 +1,133 @@
+.info {
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 10);
+  padding: 140px 0px 40px;
+  background-color: #005506;
+  .info_text {
+    color: #ffdcac;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.09em;
+    text-align: justify;
+  }
+
+  .info_grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+
+  .info_img {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 10);
+    border-radius: 1100px;
+    width: 250px;
+    height: 250px;
+  }
+
+  .info_img1 {
+    content: url(../../resources/images/photo-alexandra-contact.png);
+  }
+  .info_img2 {
+    content: url(../../resources/images/contacts-photo.jpeg);
+  }
+  .info_img3 {
+    content: url(../../resources/images/contacts-photo1.png);
+  }
+}
+
+.section_businessCard {
+  background: linear-gradient(90deg, #005506 0%, #005506 50%, #ffdcac 50%, #ffdcac 100%);
+
+  .businessCard_grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .greenPart_img {
+    content: url(../../resources/images/land-contact.png);
+  }
+  .greenPart_slogan {
+    color: #ffdcac;
+    text-align: center;
+    width: 300px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 140.4%;
+    letter-spacing: 0.29em;
+  }
+
+  .businessCard_greenPart {
+    margin: auto;
+    padding: 80px;
+  }
+
+  .businessCard_beigePart {
+    margin: auto;
+  }
+
+  .beigePart_fullname {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 0.29em;
+    color: #005506;
+    margin-bottom: 16px;
+  }
+
+  .businessCard_beigePart {
+    margin: auto;
+    padding: 60px 0 20px 0;
+    justify-items: center;
+  }
+
+  .beigePart_profession {
+    margin: 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #353535;
+  }
+
+  .contacts {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    margin-bottom: 90px;
+  }
+
+  .contacts {
+    p {
+      color: #005506;
+    }
+  }
+
+  .beige-part_icons {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    width: 187px;
+  }
+
+  .icon {
+    justify-items: center;
+  }
+
+  .icon {
+    padding: 10px;
+    p {
+      color: #005506;
+    }
+  }
+  .iconViber_green{
+    content: url(../../resources/images/Viber-card.svg);
+  }
+  .iconInst_green{
+    content: url(../../resources/images/Inst-card.svg);
+  }
+  .name {
+    margin-bottom: 170px;
+  }
+}

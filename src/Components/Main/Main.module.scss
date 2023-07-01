@@ -1,0 +1,263 @@
+.banner {
+  background-color: #005506;
+  padding: 120px 0px 80px;
+
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 5);
+
+  .img {
+    content: url(../../resources/images/banner-logo.png);
+    width: 45vw;
+  }
+
+  .p {
+    text-align: center;
+    width: 270px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.09em;
+  }
+
+  .animationFirst {
+    position: absolute;
+    animation: my_animation2 2.5s;
+    animation-fill-mode: both;
+  }
+
+  .animationLast {
+    position: absolute;
+    animation: my_animation3 2.5s;
+    animation-fill-mode: both;
+  }
+}
+@keyframes my_animation2 {
+  from {
+    left: -200px;
+    opacity: 0;
+  }
+
+  to {
+    left: 100px;
+    opacity: 1;
+  }
+}
+
+@keyframes my_animation3 {
+  from {
+    right: -200px;
+    opacity: 0;
+  }
+
+  to {
+    right: 100px;
+    opacity: 1;
+  }
+}
+
+.aboutUs {
+  position: relative;
+  padding: 80px 0;
+
+  .background_text {
+    position: absolute;
+    font-weight: 300;
+    font-size: 96px;
+    line-height: 90px;
+    text-align: right;
+    letter-spacing: 0.005em;
+    top: 0px;
+    right: 10%;
+
+    color: rgba(53, 53, 53, 0.45);
+  }
+
+  .aboutUs_text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #005506;
+    text-align: justify;
+    width: 620px;
+  }
+
+  .aboutUs_img {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 10);
+    border-radius: 50px;
+    content: url(../../resources/images/about-us-image.png);
+  }
+
+  .animation_aboutUs {
+    animation: animation_aboutUs 2.5s;
+    animation-fill-mode: both;
+  }
+  .title {
+    position: relative;
+    width: 100%;
+  }
+
+  .elementAnimation {
+    /* Скроем элемент в начальном состоянии */
+    opacity: 0;
+    transform: translateY(30%);
+  }
+  .elementAnimation.elementShow {
+    opacity: 1;
+    transition: all 1s ease-in;
+    transform: translateY(0%);
+  }
+}
+
+@keyframes animation_aboutUs {
+  from {
+    right: -200px;
+    opacity: 0;
+  }
+
+  to {
+    right: 150px;
+    opacity: 1;
+  }
+}
+
+.services {
+  position: relative;
+  padding: 40px 0;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 10);
+
+  .services_backgroundText {
+    position: absolute;
+    width: 800px;
+    font-weight: 300;
+    font-size: 63px;
+    line-height: 65px;
+    text-align: right;
+    letter-spacing: 0.005em;
+    top: 350px;
+    right: 65%;
+    transform: rotate(270deg);
+    z-index: -1;
+    color: rgba(53, 53, 53, 0.45);
+  }
+
+  .servicesList {
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+  }
+
+  .servicesListitem {
+    display: grid;
+    gap: 15px 0;
+    justify-items: center;
+    align-items: end;
+  }
+  .servicesProject_img {
+    content: url(../../resources/images/services-project.png);
+  }
+  .servicesGazon_img {
+    content: url(../../resources/images/services-gazon.png);
+  }
+  .servicesVillage_img {
+    content: url(../../resources/images/services-village.png);
+  }
+  .servicesText {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 34px;
+    text-align: center;
+    color: #005506;
+  }
+  .artificialReservoirs {
+    z-index: 100;
+  }
+
+  .servicesListitem_img {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 10);
+    border-radius: 50px;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+  }
+
+  .servicesListitem_img:hover {
+    transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+  }
+
+  .servicesListitem:hover {
+    .servicesText {
+      font-size: 26px;
+      transition: 1s;
+    }
+  }
+}
+
+.portfolio {
+  position: relative;
+  padding: 40px 0;
+}
+
+.portfolioList {
+  grid-template-columns: 1fr 1fr;
+  gap: 50px 0px;
+}
+
+.projectAfonino {
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  content: url(../../resources/images/project-afonino.png);
+}
+.projectBurevestnik {
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  content: url(../../resources/images/project-burevestnik.png);
+}
+.projectElhovka {
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  content: url(../../resources/images/project-elhovka.png);
+}
+.projectNicePlace {
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  content: url(../../resources/images/project-nice-place.png);
+}
+
+.projectAfonino:hover {
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+.projectBurevestnik:hover {
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+.projectElhovka:hover {
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+.projectNicePlace:hover {
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}

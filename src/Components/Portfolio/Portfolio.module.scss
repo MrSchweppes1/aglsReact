@@ -1,0 +1,41 @@
+.workList {
+  padding: 120px 0px 60px;
+  
+  .portfolio {
+    grid-template-areas:'f b'
+                        'a a';
+    gap: 0px;
+
+
+    .projectItem {
+      padding: 0px;
+      border: none;
+      background: none;
+
+      .projectAfonino {
+
+
+        -moz-transition: all 1s ease-out;
+        -o-transition: all 1s ease-out;
+        transition: all 1s ease-out;
+        content: url(../../resources/images/project-afonino.png);
+      }
+      .projectBurevestnik {
+   
+
+        -moz-transition: all 1s ease-out;
+        -o-transition: all 1s ease-out;
+        transition: all 1s ease-out;
+        content: url(../../resources/images/project-burevestnik.png);
+      }
+      .projectElhovka {
+        grid-area: f;
+
+        -moz-transition: all 1s ease-out;
+        -o-transition: all 1s ease-out;
+        transition: all 1s ease-out;
+        content: url(../../resources/images/project-elhovka.png);
+      }
+    }
+  }
+}

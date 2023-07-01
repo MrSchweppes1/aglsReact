@@ -1,0 +1,64 @@
+footer {
+  padding: 40px 0;
+  background-image: url(../../../resources/images/footer.png);
+  background-size: cover;
+
+  .request {
+    font-weight: 700;
+    color: #ffdcac;
+  }
+
+  .callbackForm {
+    width: 900px;
+    padding-bottom: 60px;
+  }
+
+  .callbackForm_date {
+    gap: 40px 0px;
+  }
+
+  input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: solid #ffdcac 3px;
+    width: 400px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #ffdcac;
+  }
+
+  input::placeholder {
+    color: #ffdcac;
+  }
+
+  textarea {
+    background-color: #ffdcac;
+    color: #005506;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    min-width: 300px;
+    min-height: 180px;
+  }
+
+  textarea::placeholder {
+    color: #005506;
+  }
+
+  .btnSubmit{
+    padding: 10px 90px;
+    font-weight: 400;
+    font-size: 20px;
+
+    color: #005506;
+    background: #ffdcac;
+
+    border: none;
+    border-radius: 15px;
+  }
+}
