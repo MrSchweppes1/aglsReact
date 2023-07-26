@@ -10,14 +10,7 @@ export const Main = () => {
       <section className={styles.banner}>
         <div className={classNames(genStyles.container, styles.title)}>
           <h1>Ландшафтная студия Alexandra Green LandSign</h1>
-          <div
-            className={classNames(
-              styles.bannerLogo,
-              genStyles.d_flex,
-              genStyles.al_c,
-              genStyles.jc_c,
-            )}
-          >
+          <div className={classNames(styles.bannerLogo, genStyles.d_flex, genStyles.al_c, genStyles.jc_c,)}>
             <p className={classNames(styles.animationFirst, styles.p)}>
               Гармония в природе на вашем островке земли
             </p>
@@ -32,13 +25,7 @@ export const Main = () => {
       <section className={classNames(styles.aboutUs, styles.elementAnimation)}>
         <div className={classNames(genStyles.container)}>
           <h2>Обо мне</h2>
-          <div
-            className={classNames(
-              styles.aboutUs_info,
-              genStyles.d_flex,
-              genStyles.jc_sa,
-              genStyles.al_c,
-            )}
+          <div className={classNames(styles.aboutUs_info, genStyles.d_flex, genStyles.jc_sa, genStyles.al_c,)}
           >
             <img className={classNames(styles.aboutUs_img)} alt="" />
             <p className={classNames(styles.aboutUs_text)}>

@@ -8,7 +8,6 @@
     content: url(../../resources/images/banner-logo.png);
     width: 45vw;
   }
-
   .p {
     text-align: center;
     width: 270px;
@@ -23,7 +22,6 @@
     animation: my_animation2 2.5s;
     animation-fill-mode: both;
   }
-
   .animationLast {
     position: absolute;
     animation: my_animation3 2.5s;
@@ -41,7 +39,6 @@
     opacity: 1;
   }
 }
-
 @keyframes my_animation3 {
   from {
     right: -200px;
@@ -53,7 +50,6 @@
     opacity: 1;
   }
 }
-
 .aboutUs {
   position: relative;
   padding: 80px 0;
